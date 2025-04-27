@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>歷年來台旅客分析圖表</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: "Noto Sans TC", "Segoe UI", sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 50px;
+      color: #222;
+    }
+
+    .chart-section {
+      background: white;
+      margin: 0 auto 60px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      max-width: 1200px;
+    }
+
+    .chart-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      background-color: #fff;
+      color: #555;
+      font-size: 14px;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>歷年來台旅客分析圖表</h1>
+
+  <div class="chart-section">
+    <div class="chart-title">歷年來台旅客國籍關聯圖（Force Directed Tree）</div>
+    <iframe src="TREE.html"></iframe>
+  </div>
+
+  <div class="chart-section">
+    <div class="chart-title">歷年來台旅客人數趨勢（Bar Chart Race）</div>
+    <iframe src="RACE.html"></iframe>
+  </div>
+  
+  <div class="summary">
+    2024來台國籍最多前三名：日本、香港、韓國
+  </div>
+  
+  <footer>
+    網頁製作者：白芷榆
+  </footer>
+
+</body>
+</html>
